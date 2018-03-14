@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
-    <title>Ppercetakan Mawar Astra Jingga</title>
+    <title>percetakan Mawar Astra Jingga</title>
 
     <!-- Meta Tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
