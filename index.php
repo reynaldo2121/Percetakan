@@ -107,6 +107,7 @@
 
     <!-- START CAROUSEL -->
     <section class="carousel-gambar">
+    <div class="container">
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -171,7 +172,7 @@
         </div>
 
 
-
+</div>
     </section>
 
     <!-- END CAROUSEL -->
