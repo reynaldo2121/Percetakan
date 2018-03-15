@@ -62,11 +62,11 @@
 
                     <div class="collapse navbar-collapse animated" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-rightt">
-                            <li><a href="#tentang-kami" class="href-satu">Tentang Kami</a></li>
-                            <li><a href="#produk" class="href-dua">Produk</a></li>
+                            <li><a href="#tentang-kami" class="href-satu">TENTANG KAMI</a></li>
+                            <li><a href="#produk" class="href-dua">PRODUK</a></li>
                             <li class="logo-navbar"><img src="img/logoheader.png"  class="img-responsive"></li>
-                            <li><a href="#prosedur"class="href-empat">Prosedur</a></li>
-                            <li><a href="#hubungi-kami"class="href-empat">Hubungi Kami</a></li>
+                            <li><a href="#prosedur"class="href-empat">PROSEDUR</a></li>
+                            <li><a href="#hubungi-kami"class="href-empat">HUBUNGI KAMI</a></li>
 
 
                         </ul>
@@ -184,7 +184,7 @@
                 <div class="produk-body">
 
                     <div class="col-md-6">
-                        <h1>Produk</h1>
+                        <h1>PRODUK</h1>
                         <div class="row">
                             <div class="produk-menu">
                                 <div class="col-xs-6">
@@ -311,8 +311,8 @@
                             </div>
 
                         </div>
-                        <div class="col-md-6">
-                            <div id="googleMap"  style="width:100%;height:400px"></div>
+                        <div class="col-md-6" style="text-align:center;">
+                            <div id="googleMap"  style="width:462px;height:462px; display:inline-block"></div>
                         </div>
 
                     </div>
