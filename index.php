@@ -124,28 +124,28 @@
             <div class="carousel-inner">
 
                 <div class="item active">
-                    <img src="img/Thumbail-02.jpg" style="width:100%;">
+                    <img src="img/Thumbail-02.jpg" style="width:90%;">
 
                 </div>
 
 
                 <div class="item">
-                  <img src="img/Thumbail-03.jpg" style="width:100%;">
+                  <img src="img/Thumbail-03.jpg" style="width:90%;">
 
               </div>
 
               <div class="item">
-                  <img src="img/Thumbail-04.jpg" style="width:100%;">
+                  <img src="img/Thumbail-04.jpg" style="width:90%;">
 
               </div>
 
               <div class="item">
-                  <img src="img/Thumbail-05.jpg" style="width:100%;">
+                  <img src="img/Thumbail-05.jpg" style="width:90%;">
 
               </div>
 
               <div class="item">
-                  <img src="img/Thumbail-06.jpg" style="width:100%;">
+                  <img src="img/Thumbail-06.jpg" style="width:90%;">
 
               </div>
 
