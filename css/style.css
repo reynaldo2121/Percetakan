@@ -406,13 +406,14 @@ a:focus {
 .butuh-custom {
     width: 100%;
     margin: 10px 0px;
+    background-color: #f2f2f2;
     /*padding-left: 77px;*/
     box-shadow: 1px 5px 20px rgba(0, 0, 0, .5);
     
 }
 
 .butuh-custom .col-md-4 {
-    padding-top: 40px;
+    padding-top: 15px;
 }
 
 .butuh-custom .col-md-4 h1{
@@ -421,7 +422,7 @@ a:focus {
    font-size: 45.54px;
    -webkit-text-stroke: 1px black;
    padding-top: 15px;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
    line-height: 55px;
    letter-spacing: 3px
 ;}

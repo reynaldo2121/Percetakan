@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
-    <title>ppercetakan Mawar Astra Jingga</title>
+    <title>Percetakan Mawar Astra Jingga</title>
 
     <!-- Meta Tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -233,12 +233,12 @@
             <div class="col-xs-12 col-md-4">
                 <div class="judul-custom-1"><h1>BUTUH <br> CETAK <br> CUSTOM ?</h1></div>
                 <div class="judul-custom-2"><h1>BUTUH CETAK CUSTOM ?</h1></div>
-                <h4>Ingin lebih tahu informasi lebih lanjut tentang pemesanan</h4>
-                <h4>Hubungi kami<br>telp WA sama email</h4>
+                <h4>Ingin lebih tahu informasi lebih lanjut tentang pemesanan?</h4>
+                <h4>Hubungi kami<br>0341 498 218 <br> 0821 313 40669</h4>
             </div>
 
             <div class="col-xs-12 col-md-8">
-                <img src="img/butuhcustom-01.jpg"  class="img-responsive">
+                <img src="img/butuh-custom.jpeg"  class="img-responsive">
             </div>
 
         </div></div>
@@ -305,10 +305,10 @@
                             </h4>
 
                             <div class="logo-logo">
-                                <a href="#"><img src="img/logohubungikami1.png"  class="img-responsive"></a>
+                                <a href="#"><img src="img/logohubungikami1.png"  class="img-responsive"  ></a>
                                 <a href="#"><img src="img/logohubungikami2.png"  class="img-responsive"></a>
-                                <a href="#"><img src="img/logohubungikami3.png"  class="img-responsive"></a>
-                                <a href="#"><img src="img/logohubungikami4.png"  class="img-responsive"></a>
+                                <a href="https://m.facebook.com/pages/Mawar-Astra-Jingga/1708706342717518" target="_blank"><img src="img/logohubungikami3.png"  class="img-responsive"  ></a>
+                                <a href="https://www.instagram.com/maj_offsetprint/"  target="_blank"><img src="img/logohubungikami4.png"  class="img-responsive"></a>
                             </div>
 
                         </div>
