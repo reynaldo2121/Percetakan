@@ -12,9 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Icon -->
-    <link rel="shortcut icon"  href="img/logo_favicong.ico">
-    <link rel="icon" sizes="130x128" href="img/logo_favicong.ico">
-    <link rel="apple-touch-icon" sizes="130x128" href="img/logo_favicong.ico">
+    <link rel="shortcut icon"  href="img/icon-logo.png">
+    <link rel="icon" sizes="130x128" href="img/licon-logo.png">
+    <link rel="apple-touch-icon" sizes="130x128" href="img/icon-logo.png">
 
 
     <!-- Stylesheets -->
@@ -305,8 +305,8 @@
                             </h4>
 
                             <div class="logo-logo">
-                                <a href="#"><img src="img/logohubungikami1.png"  class="img-responsive"  ></a>
-                                <a href="#"><img src="img/logohubungikami2.png"  class="img-responsive"></a>
+                                <a href="https://api.whatsapp.com/send?phone=6282131340669&text=Halo%20MAJ%20Print!" target="_blank"><img src="img/logohubungikami1.png"  class="img-responsive"  ></a>
+                                <a href="mailto:Rendy.maj@gmail.com" ><img src="img/logohubungikami2.png"  class="img-responsive"></a>
                                 <a href="https://m.facebook.com/pages/Mawar-Astra-Jingga/1708706342717518" target="_blank"><img src="img/logohubungikami3.png"  class="img-responsive"  ></a>
                                 <a href="https://www.instagram.com/maj_offsetprint/"  target="_blank"><img src="img/logohubungikami4.png"  class="img-responsive"></a>
                             </div>
