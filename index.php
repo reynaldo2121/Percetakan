@@ -81,7 +81,7 @@
 
     <section id="head">
         <div id="container" >
-                <div id="player"></div>
+            <div id="player"></div>
         </div>
     </section>
 
@@ -107,47 +107,47 @@
 
     <!-- START CAROUSEL -->
     <section class="carousel-gambar">
-    <div class="container">
+        <div class="container">
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
 
-            </ol>
+                </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
 
-                <div class="item active">
-                    <img src="img/Thumbail-02.jpg" style="width:90%;">
+                    <div class="item active">
+                        <img src="img/Thumbail-02.jpg" style="width:90%;">
 
-                </div>
+                    </div>
 
 
-                <div class="item">
-                  <img src="img/Thumbail-03.jpg" style="width:90%;">
+                    <div class="item">
+                      <img src="img/Thumbail-03.jpg" style="width:90%;">
 
-              </div>
+                  </div>
 
-              <div class="item">
-                  <img src="img/Thumbail-04.jpg" style="width:90%;">
+                  <div class="item">
+                      <img src="img/Thumbail-04.jpg" style="width:90%;">
 
-              </div>
+                  </div>
 
-              <div class="item">
-                  <img src="img/Thumbail-05.jpg" style="width:90%;">
+                  <div class="item">
+                      <img src="img/Thumbail-05.jpg" style="width:90%;">
 
-              </div>
+                  </div>
 
-              <div class="item">
-                  <img src="img/Thumbail-06.jpg" style="width:90%;">
+                  <div class="item">
+                      <img src="img/Thumbail-06.jpg" style="width:90%;">
 
-              </div>
+                  </div>
 
 
            <!--      <div class="item">
@@ -172,55 +172,55 @@
         </div>
 
 
-</div>
-    </section>
+    </div>
+</section>
 
-    <!-- END CAROUSEL -->
+<!-- END CAROUSEL -->
 
-    <!-- START PRODUK -->
-    <section class="produk-produk">
-        <div id="produk"></div>
-        <div class="container">
-            <div class="row">
-                <div class="produk-body">
+<!-- START PRODUK -->
+<section class="produk-produk">
+    <div id="produk"></div>
+    <div class="container">
+        <div class="row">
+            <div class="produk-body">
 
-                    <div class="col-md-6">
-                        <h1>PRODUK</h1>
-                        <div class="row">
-                            <div class="produk-menu">
-                                <div class="col-xs-6">
-                                    <ul>
-                                        <li><a href="#" id="notaClick">NOTA</a></li>
-                                        <li><a href="#" id="kalenderClick">KALENDER</a></li>
-                                        <li><a href="#" id="labelClick">LABEL</a></li>
-                                        <li><a href="#" id="tasKertasClick">TAS KERTAS</a></li>
-                                        <li><a href="#" id="dusMakananClick">DUS MAKANAN</a></li>
-                                        
-                                    </ul>
-                                </div>
-                                <div class="col-xs-6">
-                                 <ul>
-                                    <li><a href="#" id="mapClick">MAP</a></li>
-                                    <li><a href="#" id="brosurClick">BROSUR</a></li>
-                                    <li><a href="#" id="bukuStaplerClick">BUKU STAPLER</a></li>
-                                    <li><a href="#" id="bukuJilidClick">BUKU JILID</a></li>
-                                    <!-- <li><a href="#">Test6</a></li> -->
-                                    
+                <div class="col-md-6">
+                    <h1>PRODUK</h1>
+                    <div class="row">
+                        <div class="produk-menu">
+                            <div class="col-xs-6">
+                                <ul>
+                                    <li><a href="#" id="notaClick">NOTA</a></li>
+                                    <li><a href="#" id="kalenderClick">KALENDER</a></li>
+                                    <li><a href="#" id="labelClick">LABEL</a></li>
+                                    <li><a href="#" id="tasKertasClick">TAS KERTAS</a></li>
+                                    <li><a href="#" id="dusMakananClick">DUS MAKANAN</a></li>
+
                                 </ul>
                             </div>
+                            <div class="col-xs-6">
+                             <ul>
+                                <li><a href="#" id="mapClick">MAP</a></li>
+                                <li><a href="#" id="brosurClick">BROSUR</a></li>
+                                <li><a href="#" id="bukuStaplerClick">BUKU STAPLER</a></li>
+                                <li><a href="#" id="bukuJilidClick">BUKU JILID</a></li>
+                                <!-- <li><a href="#">Test6</a></li> -->
+
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <!-- IMAGE PRODUK -->
-                <div class="col-md-6">
-                    <div class="produk-pad">
-                        <img id="gambar-produk" src="img/productnota.jpg"  class="img-responsive">
-                    </div>
-                </div>
-
             </div>
+            <!-- IMAGE PRODUK -->
+            <div class="col-md-6">
+                <div class="produk-pad">
+                    <img id="gambar-produk" src="img/productnota.jpg"  class="img-responsive">
+                </div>
+            </div>
+
         </div>
     </div>
+</div>
 
 </section>
 <!-- END PRODUCT -->
@@ -307,7 +307,7 @@
                             <div class="logo-logo">
                                 <a href="https://api.whatsapp.com/send?phone=6282131340669&text=Halo%20MAJ%20Print!" target="_blank"><img src="img/logohubungikami1.png"  class="img-responsive"  ></a>
                                 <a href="mailto:Rendy.maj@gmail.com" ><img src="img/logohubungikami2.png"  class="img-responsive"></a>
-                                <a href="https://m.facebook.com/pages/Mawar-Astra-Jingga/1708706342717518" target="_blank"><img src="img/logohubungikami3.png"  class="img-responsive"  ></a>
+                                <a href="https://facebook.com/pages/Mawar-Astra-Jingga/1708706342717518" target="_blank"><img src="img/logohubungikami3.png"  class="img-responsive"  ></a>
                                 <a href="https://www.instagram.com/maj_offsetprint/"  target="_blank"><img src="img/logohubungikami4.png"  class="img-responsive"></a>
                             </div>
 
@@ -328,52 +328,6 @@
 
 
 
-    <script>
-      // 1. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 2. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height: '100%',
-          width: '100%',
-          playerVars: {
-                    autoplay: 1,
-                    loop: 1,
-                    controls: 1,
-                    showinfo: 0,
-                    autohide: 1,
-                    modestbranding: 1,
-                    vq: 'hd1080'},
-          videoId: '72wDzGGRplo',
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-
-      // 3. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-        player.mute();
-      }
-
-      var done = false;
-      function onPlayerStateChange(event) {
-        
-      }
-      function stopVideo() {
-        player.stopVideo();
-      }
-    </script>
-
             <script type="text/javascript">
                 // $("#container").mouseenter(function(){
                 //     $(this).addClass('hover-state');
@@ -382,33 +336,39 @@
                 // });
 
                 // $("#container.click-to-play-video").click(function(){
-                    $('#head').css({"background-color":"black"});
 
-                    player = new YT.Player('player', {
-                        width : '100%',
-                        height : '100%',
-                        videoId : '72wDzGGRplo',
-                        playerVars: { 'autoplay': 1 },
+                    var player;
+                    function onYouTubeIframeAPIReady() {
+                        player = new YT.Player('player', {
+                            width : '100%',
+                            height : '100%',
+                            videoId : '72wDzGGRplo',
+                            playerVars: { 'autoplay':1,
+                            loop: 1,
+                            controls: 1,
+                            showinfo: 1,
+                            autohide: 1,
+                        },
                         events : {
                             'onReady' : onPlayerReady,
                             'onStateChange' : onPlayerStateChange
                         }
                     });
+                    }
                 // });
 
-                var tag = document.createElement('script');
-                tag.src = "https://www.youtube.com/iframe_api";
-                var firstScriptTag = document.getElementsByTagName('script')[0];
-                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-                var player;
-                function onPlayerReady(event) {
+function onPlayerReady(event) {
                 //event.target.playVideo();
             }
             function onPlayerStateChange(event) {
                 if(event.data == YT.PlayerState.ENDED) {
-                    player.destroy();
-                    $('#head').css({"background-color":"#aaa"});
+                    player.playVideo();
+
                 }
             }
         </script>
@@ -575,13 +535,13 @@
             //     var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
             // }
 
-    
+
             function initMap() {
                 var uluru = {lat: -7.945405, lng: 112.629868};
                 var map = new google.maps.Map(document.getElementById('googleMap'), {
                     zoom: 17,
-                  center: uluru
-              });
+                    center: uluru
+                });
 
 
 
