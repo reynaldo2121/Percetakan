@@ -80,8 +80,8 @@
     <!-- START PLAY VIDEO ON TOP -->
 
     <section id="head">
-        <div id="container" class="click-to-play-video inactive-state">
-            <div id="player" class="home-player"></div>
+        <div id="container" >
+                <div id="player"></div>
         </div>
     </section>
 
@@ -313,7 +313,7 @@
 
                         </div>
                         <div class="col-md-6" style="text-align:center;">
-                            <div id="googleMap"  style="width:462px;height:462px; display:inline-block"></div>
+                            <div id="googleMap" ></div>
                         </div>
 
                     </div>
@@ -326,14 +326,62 @@
 
             <!-- SCRIPT -->
 
-            <script type="text/javascript">
-                $("#container").mouseenter(function(){
-                    $(this).addClass('hover-state');
-                }).mouseleave(function(){
-                    $(this).removeClass('hover-state');
-                });
 
-                $("#container.click-to-play-video").click(function(){
+
+    <script>
+      // 1. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 2. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '100%',
+          width: '100%',
+          playerVars: {
+                    autoplay: 1,
+                    loop: 1,
+                    controls: 1,
+                    showinfo: 0,
+                    autohide: 1,
+                    modestbranding: 1,
+                    vq: 'hd1080'},
+          videoId: '72wDzGGRplo',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 3. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+        player.mute();
+      }
+
+      var done = false;
+      function onPlayerStateChange(event) {
+        
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+
+            <script type="text/javascript">
+                // $("#container").mouseenter(function(){
+                //     $(this).addClass('hover-state');
+                // }).mouseleave(function(){
+                //     $(this).removeClass('hover-state');
+                // });
+
+                // $("#container.click-to-play-video").click(function(){
                     $('#head').css({"background-color":"black"});
 
                     player = new YT.Player('player', {
@@ -346,7 +394,7 @@
                             'onStateChange' : onPlayerStateChange
                         }
                     });
-                });
+                // });
 
                 var tag = document.createElement('script');
                 tag.src = "https://www.youtube.com/iframe_api";
@@ -585,7 +633,7 @@
                 $('#bs-example-navbar-collapse-1 .href-satu').bind('click',function(event){
                     var $anchor = $(this);
 
-                    if(window.innerWidth<476){
+                    if(window.innerWidth<500){
 
                         $('html, body').stop().animate({
                             scrollTop: ($($anchor.attr('href')).offset().top-350)
@@ -623,7 +671,7 @@
                 $('#bs-example-navbar-collapse-1 .href-dua').bind('click',function(event){
                     var $anchor = $(this);
 
-                    if(window.innerWidth<476){
+                    if(window.innerWidth<590){
 
                         $('html, body').stop().animate({
                             scrollTop: ($($anchor.attr('href')).offset().top-350)
@@ -660,7 +708,7 @@
                 $('#bs-example-navbar-collapse-1 .href-tiga').bind('click',function(event){
                     var $anchor = $(this);
 
-                    if(window.innerWidth<476){
+                    if(window.innerWidth<500){
 
                         $('html, body').stop().animate({
                             scrollTop: ($($anchor.attr('href')).offset().top-350)
@@ -697,7 +745,7 @@
                     var $anchor = $(this);
 
 
-                    if(window.innerWidth<476){
+                    if(window.innerWidth<500){
 
                         $('html, body').stop().animate({
                             scrollTop: ($($anchor.attr('href')).offset().top-350)
